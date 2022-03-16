@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3, h2, p, a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Embrulho/Wrapper */
+.wrapper {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho{
+    background: #121716;
+    padding: 32px 0;
+    color: #fff;
+}

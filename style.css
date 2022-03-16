@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3, h2, p, a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Embrulho/Wrapper */
+.wrapper {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho{
+    background: #121716;
+    padding: 32px 0;
+    color: #fff;
+}
+
+.links_menu > a{
+        padding: 12px 15px;
+}
+
+.post_AC_Games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    height: 50vh;
+    font-size: 36px;
+    text-align: center;
+}
+.sobre_a_empresa{
+    color: #fff;
+    height: 50vh;
+    font-size: 26px;
+    
+}
+
+#localizacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 50vh;
+    font-size: 36px;
+}
+
+#Redes_Sociais{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 25px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+}
+body{
+    background-image: url(./IMG/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    text-align: center;
+    padding: 8px 0;
+    color: #fff;
+    background-color: #000;
+}
+
+#icone_mapa{
+    font-size: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icone_sobre_empresa{
+    font-size: 8em;
+}
+
+#div_texto{
+    margin-left: 20px;
+}
+
+#facebook{
+    color: #1B62C5;
+}
+
+#youtube{
+    color: #CE273D;
+}
+
+#instagram{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+#whatsapp{
+    color: #0AFF6C;
+}
+
+#twitter{
+    color: #56CADC;
+}
+
+#div_icone{
+    text-align: center;
+}

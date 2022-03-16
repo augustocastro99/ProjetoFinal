@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./IMG/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
